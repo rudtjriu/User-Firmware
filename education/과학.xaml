@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="과학" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" Margin="368,155,0,0" Text="Version 4.0A" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" TextChanged="TextBox_TextChanged"/>
+
     </Grid>
 </Window>

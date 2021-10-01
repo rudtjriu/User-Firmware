@@ -53,7 +53,7 @@ namespace education {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/education;V1.0.0.0;component/%ec%88%98%ed%95%99.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/education;component/%ec%88%98%ed%95%99.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\수학.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

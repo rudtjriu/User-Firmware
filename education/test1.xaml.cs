@@ -33,13 +33,13 @@ namespace education
             
             string value = 과목.Text;
 
-            if( value == "수학" )
+            if( value == "ATMEGA32D4" )
             {
                 education.수학 section1 = new education.수학();
 
                 section1.ShowDialog();
             }
-            else if(value == "과학")
+            else if(value == "ATMEGA64D4")
             {
                 education.과학 section2 = new education.과학();
 
